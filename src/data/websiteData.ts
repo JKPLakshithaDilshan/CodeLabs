@@ -23,6 +23,20 @@ export const SERVICES: Service[] = [
     features: ['Architectural design advising', 'System analysis & documentation assistance', 'Best-practice coding structures']
   },
   {
+    id: 'java-project-support',
+    title: 'SE Java Project Support',
+    description: 'Looking for affordable Java development? We build only the specific frontend or backend parts you need for your group project.',
+    iconName: 'Coffee',
+    features: [
+      'Complete Frontend + Backend development support',
+      'CRUD operations, search, filter & form validation',
+      'Proposal, SRS, UML diagrams & report writing',
+      'Viva exam guidance & line-by-line code explanation',
+      'Work aligned with marking schemes & on-time delivery',
+      'Unlimited revisions & modification support'
+    ]
+  },
+  {
     id: 'database-design',
     title: 'Database Architecture',
     description: 'Learn or build database schemas that are high-performing, normalized, and securely structured.',

@@ -10,7 +10,8 @@ import {
   Cpu,
   Sparkles,
   ArrowRight,
-  CheckCircle2
+  CheckCircle2,
+  Coffee
 } from 'lucide-react';
 
 // Custom Map for specific icons to avoid dynamically importing all of lucide
@@ -22,7 +23,8 @@ const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
   Figma: Cpu, // fallback to Cpu or another relevant icon if Figma isn't directly imported
   FileText,
   Cpu,
-  Sparkles
+  Sparkles,
+  Coffee
 };
 
 interface ServicesProps {
