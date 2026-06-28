@@ -2,6 +2,20 @@ import { Service, Project, FAQItem, Technology } from '../types';
 
 export const SERVICES: Service[] = [
   {
+    id: 'java-project-support',
+    title: 'SE Java Project Support',
+    description: 'Looking for affordable Java development? We build only the specific frontend or backend parts you need for your group project.',
+    iconName: 'Coffee',
+    features: [
+      'Complete Frontend + Backend development support',
+      'CRUD operations, search, filter & form validation',
+      'Proposal, SRS, UML diagrams & report writing',
+      'Viva exam guidance & line-by-line code explanation',
+      'Work aligned with marking schemes & on-time delivery',
+      'Unlimited revisions & modification support'
+    ]
+  },
+  {
     id: 'programming-tutoring',
     title: 'Programming Tutoring',
     description: 'Master core concepts and syntax with 1-on-1 personalized mentoring tailored to your syllabus.',
@@ -21,20 +35,6 @@ export const SERVICES: Service[] = [
     description: 'Get end-to-end support for your university assignments, capstones, and personal portfolio projects.',
     iconName: 'Compass',
     features: ['Architectural design advising', 'System analysis & documentation assistance', 'Best-practice coding structures']
-  },
-  {
-    id: 'java-project-support',
-    title: 'SE Java Project Support',
-    description: 'Looking for affordable Java development? We build only the specific frontend or backend parts you need for your group project.',
-    iconName: 'Coffee',
-    features: [
-      'Complete Frontend + Backend development support',
-      'CRUD operations, search, filter & form validation',
-      'Proposal, SRS, UML diagrams & report writing',
-      'Viva exam guidance & line-by-line code explanation',
-      'Work aligned with marking schemes & on-time delivery',
-      'Unlimited revisions & modification support'
-    ]
   },
   {
     id: 'database-design',
