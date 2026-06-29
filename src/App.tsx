@@ -12,7 +12,7 @@ import WhatsAppButton from './components/WhatsAppButton';
 
 // Global WhatsApp Configuration for NextGen Studio
 // Change these values to instantly customize all WhatsApp links across the entire website!
-const WHATSAPP_PHONE_NUMBER = '94764792982'; // Sleek international format (e.g. Sri Lanka prefix 94)
+const WHATSAPP_PHONE_NUMBER = '94702384653'; // Sleek international format (e.g. Sri Lanka prefix 94)
 const DEFAULT_PREFILLED_MESSAGE = 'Hi NextGen Studio 👋\n\nI need help with a project task. Can you assist me?';
 
 export default function App() {
