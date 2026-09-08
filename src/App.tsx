@@ -9,6 +9,7 @@ import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import AdvertisementModal from './components/AdvertisementModal';
 
 // Global WhatsApp Configuration for CodeLabs Web Solutions
 // Change these values to instantly customize all WhatsApp links across the entire website!
@@ -90,6 +91,9 @@ export default function App() {
 
       {/* High-conversion Floating WhatsApp Trigger */}
       <WhatsAppButton whatsappUrl={whatsappUrl} />
+
+      {/* Welcome advertisement shown when a visitor opens the site */}
+      <AdvertisementModal whatsappUrl={whatsappUrl} />
     </div>
   );
 }

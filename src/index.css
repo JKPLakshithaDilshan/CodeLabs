@@ -32,3 +32,110 @@ html {
   border: 2px solid transparent;
   background-clip: padding-box;
 }
+
+.ad-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgb(3 15 30 / 78%);
+  backdrop-filter: blur(8px);
+  animation: ad-backdrop-in 220ms ease-out;
+}
+
+.ad-modal-card {
+  position: relative;
+  width: min(92vw, 480px);
+  max-height: min(92vh, 860px);
+  overflow: hidden;
+  border: 1px solid rgb(255 255 255 / 50%);
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 0 24px 80px rgb(0 0 0 / 35%);
+  animation: ad-card-in 260ms cubic-bezier(.2, .85, .25, 1.15);
+}
+
+.ad-modal-image {
+  display: block;
+  width: 100%;
+  max-height: calc(92vh - 4.25rem);
+  object-fit: contain;
+}
+
+.ad-modal-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  z-index: 1;
+  display: grid;
+  width: 2.25rem;
+  height: 2.25rem;
+  place-items: center;
+  border: 1px solid rgb(255 255 255 / 70%);
+  border-radius: 999px;
+  color: #082744;
+  background: rgb(255 255 255 / 90%);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 18%);
+  cursor: pointer;
+  transition: transform 160ms ease, background 160ms ease;
+}
+
+.ad-modal-close:hover {
+  background: #fff;
+  transform: scale(1.06);
+}
+
+.ad-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.7rem 0.9rem 0.8rem;
+  color: #16395b;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.ad-modal-action {
+  flex-shrink: 0;
+  border-radius: 999px;
+  padding: 0.45rem 0.75rem;
+  color: #fff;
+  background: #087f5b;
+  font-size: 0.72rem;
+  text-decoration: none;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.ad-modal-action:hover {
+  background: #056044;
+  transform: translateY(-1px);
+}
+
+@keyframes ad-backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes ad-card-in {
+  from { opacity: 0; transform: translateY(1rem) scale(.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (max-width: 480px) {
+  .ad-modal-backdrop {
+    padding: 0.75rem;
+  }
+
+  .ad-modal-card {
+    width: min(94vw, 400px);
+    border-radius: 1rem;
+  }
+
+  .ad-modal-footer {
+    padding: 0.6rem 0.7rem 0.7rem;
+    font-size: 0.7rem;
+  }
+}
