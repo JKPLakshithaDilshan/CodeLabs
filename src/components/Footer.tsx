@@ -20,10 +20,10 @@ export default function Footer({ onNavigate }: FooterProps) {
         <div className="flex flex-col items-center text-center gap-4 mb-8">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-[#007AFF] flex items-center justify-center text-white font-display font-bold text-sm">
-              N
+              C
             </div>
             <span className="font-display font-bold text-lg text-zinc-900 tracking-tight">
-              NextGen<span className="text-[#007AFF]">Studio</span>
+              CodeLabs
             </span>
           </div>
           <p className="text-xs text-zinc-400 font-mono tracking-widest uppercase">
@@ -51,7 +51,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         {/* Copyright and signature */}
         <div className="text-center space-y-1">
           <p className="text-xs text-zinc-400 font-sans">
-            &copy; 2026 NextGen Studio. All rights reserved.
+            &copy; 2026 CodeLabs Web Solutions. All rights reserved.
           </p>
         </div>
       </div>

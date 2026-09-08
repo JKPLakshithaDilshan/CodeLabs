@@ -20,7 +20,7 @@ export default function WhatsAppButton({ whatsappUrl }: WhatsAppButtonProps) {
         target="_blank"
         rel="noopener noreferrer"
         className="relative group flex items-center justify-center w-14 h-14 bg-[#25D366] hover:bg-[#20ba59] text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer active:scale-90"
-        aria-label="Contact NextGen Studio on WhatsApp"
+        aria-label="Contact CodeLabs on WhatsApp"
       >
         {/* Pulsing visual halo ring */}
         <span className="absolute -inset-1 rounded-full bg-[#25D366]/30 animate-ping pointer-events-none group-hover:scale-105" />

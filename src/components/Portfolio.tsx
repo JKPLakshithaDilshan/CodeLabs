@@ -184,7 +184,7 @@ export default function Portfolio({ whatsappUrl }: PortfolioProps) {
                 </span>
                 <a
                   id="portfolio-modal-whatsapp-cta"
-                  href={`${whatsappUrl}&text=Hi%20NextGen%20Studio!%20I%20saw%20your%20${encodeURIComponent(selectedProject.title)}%20portfolio%20project%20and%20I%20would%20like%20to%20request%20guidance%20for%20a%20similar%20system.`}
+                  href={`${whatsappUrl}&text=Hi%20CodeLabs!%20I%20saw%20your%20${encodeURIComponent(selectedProject.title)}%20portfolio%20project%20and%20I%20would%20like%20to%20request%20guidance%20for%20a%20similar%20system.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#007AFF] hover:bg-[#0051C7] text-white text-xs font-bold px-5 py-3 rounded-full shadow-sm hover:shadow-md transition-all cursor-pointer"

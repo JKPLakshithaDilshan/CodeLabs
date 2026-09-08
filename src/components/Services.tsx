@@ -88,7 +88,7 @@ export default function Services({ whatsappUrl }: ServicesProps) {
                 {/* WhatsApp Link CTA */}
                 <a
                   id={`service-cta-${service.id}`}
-                  href={`${whatsappUrl}&text=Hi%20NextGen%20Studio!%20I'm%20interested%20in%20your%20${encodeURIComponent(service.title)}%20service.`}
+                  href={`${whatsappUrl}&text=Hi%20CodeLabs!%20I'm%20interested%20in%20your%20${encodeURIComponent(service.title)}%20service.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#007AFF] hover:text-[#0051C7] group/link cursor-pointer"

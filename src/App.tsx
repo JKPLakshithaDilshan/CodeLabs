@@ -10,10 +10,10 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 
-// Global WhatsApp Configuration for NextGen Studio
+// Global WhatsApp Configuration for CodeLabs Web Solutions
 // Change these values to instantly customize all WhatsApp links across the entire website!
-const WHATSAPP_PHONE_NUMBER = '94702384653'; // Sleek international format (e.g. Sri Lanka prefix 94)
-const DEFAULT_PREFILLED_MESSAGE = 'Hi NextGen Studio 👋\n\nI need help with a project task. Can you assist me?';
+const WHATSAPP_PHONE_NUMBER = '94752903017'; // Sleek international format (e.g. Sri Lanka prefix 94)
+const DEFAULT_PREFILLED_MESSAGE = 'Hi CodeLabs 👋\n\nI need help with a project task. Can you assist me?';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');

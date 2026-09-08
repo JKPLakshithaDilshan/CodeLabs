@@ -59,7 +59,7 @@ export default function Contact({ whatsappUrl }: ContactProps) {
               {/* Email CTA */}
               <a
                 id="contact-email-secondary"
-                href={`mailto:${emailAddress}?subject=Inquiry%20from%20NextGen%20Studio`}
+                href={`mailto:${emailAddress}?subject=Inquiry%20from%20CodeLabs`}
                 className="w-full sm:w-auto flex items-center justify-center gap-2 bg-zinc-800 hover:bg-zinc-750 text-white border border-zinc-700 text-base font-semibold px-8 py-4 rounded-full transition-all cursor-pointer active:scale-95"
               >
                 <Mail className="w-4 h-4 shrink-0" />

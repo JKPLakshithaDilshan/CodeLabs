@@ -52,11 +52,11 @@ export default function Navbar({ onNavigate, activeSection, whatsappUrl }: Navba
           className="flex items-center gap-2 group cursor-pointer"
         >
           <div className="w-10 h-10 rounded-xl bg-[#007AFF] flex items-center justify-center text-white shadow-md shadow-[#007AFF]/20 group-hover:scale-105 transition-transform">
-            <span className="font-display font-bold text-lg leading-none tracking-tight">N</span>
+            <span className="font-display font-bold text-lg leading-none tracking-tight">C</span>
           </div>
           <div className="text-left">
             <span className="font-display font-bold text-lg text-zinc-900 leading-none block">
-              NextGen<span className="text-[#007AFF]">Studio</span>
+              CodeLabs
             </span>
             <span className="text-[10px] text-zinc-400 font-mono tracking-widest uppercase block mt-0.5">
               Build • Learn • Innovate

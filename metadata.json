@@ -1,5 +1,5 @@
 {
-  "name": "NextGen Studio",
+  "name": "CodeLabs",
   "description": "A premium Apple-style portfolio and service platform for academic tutoring, project guidance, and full-stack development support.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

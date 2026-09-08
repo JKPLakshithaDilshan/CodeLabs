@@ -101,7 +101,7 @@ export default function Hero({ whatsappUrl, onExploreServices }: HeroProps) {
             </div>
             <div className="flex items-center gap-1.5 text-xs font-mono text-zinc-500 bg-white border border-zinc-200 px-3 py-1.5 rounded-lg shadow-2xs">
               <Terminal className="w-3.5 h-3.5 text-[#007AFF]" />
-              <span>NextGenStudio // Tutoring Session</span>
+              <span>CodeLabs // Tutoring Session</span>
             </div>
             <div className="w-14"></div>
           </div>
@@ -130,7 +130,7 @@ export default function Hero({ whatsappUrl, onExploreServices }: HeroProps) {
             {/* Quick Benefits Sidebar inside mock */}
             <div className="md:col-span-5 flex flex-col justify-center space-y-6 pl-0 md:pl-4">
               <div className="space-y-1">
-                <h3 className="font-display font-semibold text-lg text-zinc-900">NextGen Standard</h3>
+                <h3 className="font-display font-semibold text-lg text-zinc-900">CodeLabs Standard</h3>
                 <p className="text-sm text-zinc-500">We do not just hand over code. We guide you step-by-step so you gain lifelong confidence.</p>
               </div>
 

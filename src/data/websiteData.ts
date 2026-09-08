@@ -153,7 +153,7 @@ export const FAQS: FAQItem[] = [
   },
   {
     id: 'how-contact',
-    question: 'How can I contact NextGen Studio to get started?',
+    question: 'How can I contact CodeLabs to get started?',
     answer: 'The fastest and easiest way is to click any of our "Contact on WhatsApp" buttons. You will be connected directly to a technical mentor who will review your syllabus, error logs, or project goals and offer immediate feedback on how we can guide you.'
   },
   {

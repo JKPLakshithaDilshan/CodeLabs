@@ -47,7 +47,7 @@ export default function WhyChooseUs() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="font-display font-bold text-3xl sm:text-5xl text-zinc-900 tracking-tight">
-            Why Choose NextGen Studio?
+            Why Choose CodeLabs?
           </h2>
           <p className="mt-4 text-base sm:text-lg text-zinc-500 font-sans">
             We bridge the gap between abstract academic theories and actual real-world software craftsmanship.
