@@ -3,7 +3,7 @@ import { Service, Project, FAQItem, Technology } from '../types';
 export const SERVICES: Service[] = [
   {
     id: 'java-project-support',
-    title: 'SE Java Project Support',
+    title: 'OOP Java Project Support',
     description: 'Looking for affordable Java development? We build only the specific frontend or backend parts you need for your group project.',
     iconName: 'Coffee',
     features: [
